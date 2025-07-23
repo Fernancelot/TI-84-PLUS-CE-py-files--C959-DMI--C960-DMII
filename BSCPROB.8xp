@@ -1,0 +1,20 @@
+:ClrHome
+:Disp "BASIC PROBABILITY"
+:Disp "CALCULATOR"
+:Disp ""
+:Input "EVENT OUTCOMES:",A
+:Input "TOTAL OUTCOMES:",B
+:If B≤0
+:Then
+:Disp "ERROR: TOTAL OUTCOMES"
+:Disp "MUST BE POSITIVE"
+:Stop
+:End
+:If A<0
+:Then
+:Disp "ERROR: EVENT OUTCOMES"
+:Disp "MUST BE NON-NEGATIVE"
+:Stop
+:End
+:A/B→P
+:Disp "PROBABILITY =",P
