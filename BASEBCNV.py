@@ -21,7 +21,7 @@ def digit_to_val(digit):
 
 # Function to convert a number from base b to base 10
 # Parameters:
-# n: The number as a string (e.g., "1A3" for base 16).
+# n0The number as a string (e.g., "1A3" for base 16).
 # b: The base of the number n (e.g., 16 for hexadecimal).
 # Returns:
 # The equivalent decimal value of n, or -1 if n contains invalid digits for base b.
@@ -83,3 +83,10 @@ def main():
 
 # Call the main function to run the program
 main()
+
+
+
+
+
+
+

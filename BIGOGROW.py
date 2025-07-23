@@ -1,19 +1,32 @@
-# UNIT 1: MODULE 2: Order of Growth Notes
-# Purpose:
-# This note explains the growth order of functions and their impact on execution speed.
-# The functions are ranked from slowest to fastest growth (shortest to longest runtime).
-# This ranking helps analyze the efficiency of algorithms.
-
 # Functions Ranked by Growth:
-# (a) log10(n) - Slowest growth, fastest execution
-# (b) n * log(n)
-# (c) n^2
-# (d) n^10
-# (e) 10^n - Fastest growth, slowest execution
+# O(1)
+# O(log n)
+# O(n)
+# - log10(n) - Slowest growth, fastest execution
+# O(n log n)
+# O(n^2)
+# O(2n)
+# - O(n^10)
+# - O(10^n) - Fastest growth, slowest execution
+# O(n!)
 
-# Execution Speed:
-# Faster algorithms grow slower (e.g., log(n)), while slower algorithms grow faster (e.g., 10^n).
-# Constant functions (e.g., O(1)) are faster than logarithmic ones, but not listed here as they do not scale with input size.
+#Summary of all Searching & Sorting Algorithms
+#Linear Search: Simple, sequential; O(n).
+#Binary Search: Sorted data, divide and conquer; O(log n).
+#Bubble Sort: Swaps, bubbles up; O(n^2).
+#Selection Sort: Finds minimum, swaps; O(n^2).
+#Insertion Sort: Builds sorted list, shifts; O(n^2), O(n) best case.
+#Merge Sort: Divide and conquer, merge; O(n log n).
+#Quick Sort: Pivot, partition; O(n log n) average, O(n^2) worst case.
+#Heap Sort: Max-heap, extract max; O(n log n).
+#Counting Sort: Counts occurrences, non-comparative; O(n + k).
+#Radix Sort: Sorts by digits, non-comparative; O(nk).
+#Bucket Sort: Distributes into buckets, sorts; O(n + k).
+#Shell Sort: Gap sequence, insertion-like; O(n^3/2).
 
-# Usage Tip:
-# When designing algorithms, aim for functions with slower growth rates like log(n) or n * log(n).
+
+
+
+
+
+

@@ -44,3 +44,10 @@ def main():
         print("C(" + str(n) + ", " + str(r) + ") = " + str(result))
 
 main()
+
+
+
+
+
+
+
